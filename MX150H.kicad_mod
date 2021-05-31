@@ -1,5 +1,5 @@
-(footprint "MX150H" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 6060BB6F)
+(footprint "MX150H" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 60B0A510)
   (attr smd)
   (fp_text reference "SW15" (at 0 3.175) (layer "Cmts.User")
     (effects (font (size 1 1) (thickness 0.15) italic))
@@ -53,7 +53,7 @@
   (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp fdb7b1eb-4591-467f-9a6a-136cd2f4aac6))
   (pad "1" smd roundrect (at -6.096 -5.08) (size 2.54 2.54) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1) (tstamp 58e6dd73-0d4b-4128-bf86-e1ba8f542c30))
   (pad "2" smd roundrect (at 7.366 -2.54) (size 2.54 2.54) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1) (tstamp be49186f-96b1-47ce-8dba-1e883ce92fa2))
-  (model ":ACHERON_3D:kailh_socket_mx.stp"
+  (model "${ACHERON_3D}/kailh_socket_mx.stp"
     (offset (xyz 0.6 3.8 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
